@@ -17,6 +17,14 @@ See [GLOSSARY.md](GLOSSARY.md) for manuscript English versus internal code names
   1-31-1 Kannondai, Tsukuba, Ibaraki 305-0856, Japan
 - Correspondence: kim.giryeon435@naro.go.jp
 
+## Acknowledgments
+
+This public GitHub package was reorganized from the original MATLAB scripts and
+data used for the manuscript analyses. Repository layout, documentation, and
+packaging for release were prepared with AI coding-tool assistance (Cursor).
+The scientific methods, measurements, and analyses were developed and verified
+by the manuscript authors.
+
 ## Requirements
 
 - MATLAB R2024a or later (developed/tested on R2025b)
@@ -149,6 +157,5 @@ DOI will be added after journal publication.
 ## License
 
 Licensed under the [Apache License, Version 2.0](LICENSE).
-Copyright 2026 Giryeon Kim, Kenichi Tokuda, Ryo Arai, and Wataru Iizima,
-Research Center for Agricultural Robotics, NARO.
+Copyright 2026 Giryeon Kim, Research Center for Agricultural Robotics, NARO.
 See also [NOTICE](NOTICE).
