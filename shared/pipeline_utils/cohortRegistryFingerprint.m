@@ -1,0 +1,16 @@
+function fp = cohortRegistryFingerprint()
+%cohortRegistryFingerprint コホート定義の指紋（paramPredictors 非依存）
+
+reg = PredictorRegistry();
+oc = OutlierConfig();
+outlierBase = sort(reg.outlierBasePredictors(:));
+outlierBase = outlierBase(:).';
+parts = [ ...
+    string(reg.targetName), ...
+    "outlier:" + outlierBase, ...
+    "madZ=" + string(oc.madZThreshold), ...
+    "yieldMad=" + string(double(oc.modeYieldMad)), ...
+    "baseMad=" + string(double(oc.modeBaseXMad))];
+fp = strjoin(parts, "|");
+
+end

@@ -1,0 +1,26 @@
+# Local / generated
+outputs/*
+!outputs/prepare/
+outputs/prepare/*
+!outputs/prepare/02_estimate/
+!outputs/prepare/03_preprocess/
+outputs/prepare/02_estimate/*
+outputs/prepare/03_preprocess/*
+# Manuscript Jeffreys bilateral-IQR cohort (shipped; fixed primaryAnalysisTag)
+!outputs/prepare/02_estimate/tomato_with_fit_bi_iqr15.mat
+!outputs/prepare/02_estimate/jeffreys_fit_results_bi_iqr15.mat
+!outputs/prepare/03_preprocess/master_analysis_table_bi_iqr15.mat
+!outputs/prepare/03_preprocess/cohort_manifest_bi_iqr15.mat
+
+*.asv
+*.m~
+.DS_Store
+Thumbs.db
+
+# MATLAB / editor
+*.slxc
+*.autosave
+
+# OS / sync noise
+~$*
+desktop.ini
