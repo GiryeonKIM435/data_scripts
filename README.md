@@ -142,7 +142,9 @@ See `outputs/paper_outputs_manifest.csv` for the full list.
 Please cite the associated Agriculture manuscript (Kim, Tokuda, Arai, and Iizima)
 when using this software or data.
 
-Repository URL and DOI will be added after publication.
+Repository: https://github.com/GiryeonKIM435/data_scripts
+
+DOI will be added after journal publication.
 
 ## License
 
